@@ -27,10 +27,10 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        minSdkVersion safeExtGet('reactNativeFFmpegPackage', 'https').contains("-lts") ? 16 : 24
+        minSdkVersion 24
         targetSdkVersion 29
         versionCode 44
-        versionName "0.4.4"
+        versionName "0.4.5"
         project.archivesBaseName = "react-native-ffmpeg"
     }
     lintOptions {
